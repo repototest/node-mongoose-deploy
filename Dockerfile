@@ -1,9 +1,9 @@
 FROM node:latest
 
-RUN mkdir -p /home/www/express
-WORKDIR /home/www/express
+RUN mkdir -p /home/ubuntu/nodeapp
+WORKDIR /home/ubuntu/nodeapp
 
-COPY . /home/www/express
+COPY . /home/ubuntu/nodeapp
 
 RUN npm install
 
