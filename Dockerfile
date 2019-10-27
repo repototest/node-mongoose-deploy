@@ -1,9 +1,9 @@
 FROM node:latest
 
-RUN mkdir -p /home/ubuntu/nodeapp
-WORKDIR /home/ubuntu/nodeapp
+RUN mkdir -p /home/project
+WORKDIR /home/project
 
-COPY . /home/ubuntu/nodeapp
+COPY . /home/project
 
 RUN npm install
 
